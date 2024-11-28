@@ -2,20 +2,27 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+body::-webkit-scrollbar {
+	width: 0%;
 }
 
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family:  Bricolage;
+}
+
+@font-face {
+  src: url("../fonts/Bricolage.woff2");
+  font-family: Bricolage;
+}
+
+@layer utilities {
+  .padding-x {
+    @apply px-[30px] xm:px-[20px] sm:px-[20px];
+  }
+  .btn {
+    @apply flex gap-2 items-center text-[17px] font-semibold capitalize text-[#260A2F] bg-secondary rounded-full leading-tight tracking-tight px-4 py-3 xm:py-2 sm:py-2 xm:px-4 sm:px-4
+  }
 }
