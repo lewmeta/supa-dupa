@@ -40,5 +40,10 @@
         "title5": "Activer.",
         "heading5": "C’est ici que la magie opère.",
         "para5": "Nous activons votre parcours et amplifions votre histoire avec des concepts créatifs, des expériences numériques et des campagnes. Nous donnons vie à vos initiatives axées sur un objectif, créant des actions concrètes qui impactent positivement votre entreprise et votre communauté. En utilisant notre méthode innovante Transformation Sprint, basée sur les principes de la gestion de transition systémique, nous mettons en œuvre des changements positifs courts et itératifs qui aident votre équipe à effectuer la transition nécessaire."
+    },
+    "footerContent": {
+        "footerHeading1": "Tout le monde sait où il veut aller. Mais parfois, il faut un guide qui sait comment y parvenir.",
+        "footerHeading2": "Connectons-nous avec un objectif et explorons votre parcours ensemble.",
+        "footerBtn": "Commencez votre voyage"
     }
 }

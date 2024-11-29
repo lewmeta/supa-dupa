@@ -1,5 +1,6 @@
 "use client"
 
+import { Footer } from "@/components/footer";
 import { Hero } from "@/components/hero";
 import { Journey } from "@/components/journey";
 import { Preload } from "@/components/preload";
@@ -39,6 +40,7 @@ export default function Home() {
           <Hero />
           <Journey />
           <Slider />
+          <Footer />
         </>
       )}
     </>
