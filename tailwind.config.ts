@@ -15,7 +15,7 @@ export default {
         "light-subtle": "rgba(39, 39, 39, 0.5)",
         "highlight-dark": "#ffc220",
         "highlight-light": "#ffc220",
-      },
+      }
     },
     screens: {
       xm: { max: "400px" },
