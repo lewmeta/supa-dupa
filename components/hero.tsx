@@ -95,12 +95,12 @@ export const Hero = () => {
     }
 
     return (
-        <div className="padding-x flex min-h-screen w-full flex-col items-center justify-center gap-10 sm:pt-20 md:pt-24 lg:pt-24">
+        <div className="padding-x flex min-h-screen w-full flex-col items-center justify-center gap-10">
             <Navbar />
             <div
                 className="flex w-full flex-col justify-start"
                 ref={containerRef}>
-                <h1 className="mb-5 text-[24px] font-normal leading-tight tracking-tight text-[#9FE870] xm:text-lg sm:text-lg">
+                <h1 className="text-[24px] font-normal leading-tight tracking-tight text-[#9FE870] xm:text-lg sm:text-lg">
                     {t("welcome-to-the-world-of")}
                 </h1>
                 <span
@@ -115,17 +115,17 @@ export const Hero = () => {
                                 duration: 1,
                                 ease: [0.4, 0, 0.2, 1],
                             }}
-                            viewport={{ once: false }}
+                            viewport={{ once: true }}
                             key={i}>
                             {item}
                         </motion.p>
                     ))}
                 </span>
             </div>
-            <div className="relative flex w-full flex-col gap-10"
+            <div
+                className="relative flex w-full flex-col gap-10"
                 onMouseMove={manageMouseMove}
-                onMouseLeave={resetVideoPosition}
-            >
+                onMouseLeave={resetVideoPosition}>
                 <div className="absolute left-64 h-[400px] w-[600px] rounded-lg xm:static xm:left-0 xm:h-[300px] xm:w-full sm:static sm:left-0 sm:h-[300px] sm:w-full">
                     <motion.video
                         ref={plane1}
@@ -133,40 +133,48 @@ export const Hero = () => {
                         whileInView={{ y: 0, opacity: 1, scale: 1 }}
                         transition={{
                             duration: 1,
-                            ease: "easeInOut"
+                            ease: "easeInOut",
                         }}
+                        viewport={{ once: true }}
                         src="./heroVideo.mp4"
                         autoPlay
                         loop
                         muted
-                        className="h-full w-full cursor-grabbing rounded-[30px] object-cover"
+                        className="h-full w-full rounded-[30px] object-cover"
                     />
-                    <div className="absolute -left-16 top-36 flex items-center xm:hidden">
+                    <motion.div
+                        animate={{ rotate: [-360, 360] }}
+                        transition={{
+                            repeat: Infinity,
+                            repeatType: "loop",
+                            duration: 20,
+                            ease: "linear",
+                        }}
+                        className="absolute -left-16 top-36 flex items-center xm:hidden sm:hidden">
                         <Image
                             src={heroCircle}
-                            alt="heroCircle"
+                            alt="heroCircleImg"
                             width={120}
                             height={120}
                         />
-                    </div>
+                    </motion.div>
                 </div>
                 <motion.div
-                    initial={{ borderWidth: 0, width: "0%" }}
+                    initial={{ borderTopWidth: 0, width: "0%" }}
                     viewport={{ once: true }}
                     whileInView={{
-                        borderWidth: 1,
+                        borderTopWidth: 1,
                         width: "100%",
                         borderColor: "#9FE870",
-                        origin: "left"
+                        origin: "left",
                     }}
                     transition={{
                         duration: 0.8,
                         delay: 0.5,
-                        ease: "easeInOut"
+                        ease: "easeInOut",
                     }}
                     className="mt-20 w-full xm:mt-0 sm:mt-0"
                 />
-
                 <div className="relative flex w-full justify-between">
                     <div className="relative flex flex-col gap-5 xm:hidden sm:hidden">
                         <Image

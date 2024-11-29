@@ -1,6 +1,7 @@
 "use client"
 
 import { Hero } from "@/components/hero";
+import { Journey } from "@/components/journey";
 import { Preload } from "@/components/preload";
 import { Slider } from "@/components/slider";
 import { AnimatePresence } from "framer-motion";
@@ -36,6 +37,7 @@ export default function Home() {
       {!isLoading && (
         <>
           <Hero />
+          <Journey />
           <Slider />
         </>
       )}
