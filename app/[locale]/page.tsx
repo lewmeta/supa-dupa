@@ -1,5 +1,6 @@
 "use client"
 
+import { Hero } from "@/components/hero";
 import { Preload } from "@/components/preload";
 import { Slider } from "@/components/slider";
 import { AnimatePresence } from "framer-motion";
@@ -33,9 +34,10 @@ export default function Home() {
         {isLoading && <Preload />}
       </AnimatePresence>
       {!isLoading && (
-        <div className="pt-30 bg-gray-400">
+        <>
+          <Hero />
           <Slider />
-        </div>
+        </>
       )}
     </>
   );

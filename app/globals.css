@@ -7,10 +7,12 @@ body::-webkit-scrollbar {
 	width: 0%;
 }
 
+
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family:  Bricolage;
+	font-family: Bricolage;
+	background-color: #163300;
+	/* background-color: #ff2303; */
+	overflow-x: hidden;
 }
 
 @font-face {

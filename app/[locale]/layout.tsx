@@ -3,7 +3,7 @@ import { NextIntlClientProvider } from "next-intl";
 import { getLocale, getMessages } from "next-intl/server";
 
 import "../globals.css";
-import { Navbar } from "@/components/navbar";
+// import { Navbar } from "@/components/navbar";
 
 export const metadata: Metadata = {
   title: "SupaDupa - Let's build some good companies!",
@@ -24,7 +24,7 @@ export default async function RootLayout({
       <body
       >
         <NextIntlClientProvider messages={messages}>
-          <Navbar />
+          {/* <Navbar /> */}
           {children}
         </NextIntlClientProvider>
       </body>
