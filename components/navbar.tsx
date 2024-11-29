@@ -23,8 +23,8 @@ export const Navbar = () => {
     const onSelectChange = () => {
         const locales = ["en", "nl", "fr"];
         // const nextLocale =
-            // currentLocale == "en" ? "nl" : currentLocale === "nl" ? "fr" :
-            //     "en";
+        // currentLocale == "en" ? "nl" : currentLocale === "nl" ? "fr" :
+        //     "en";
         const nextLocale = locales[(locales.indexOf(currentLocale) + 1) % locales.length];
 
         startTransition(() => {
@@ -92,18 +92,17 @@ export const Navbar = () => {
                         >
                             <AnimatePresence mode="wait">
                                 {active && (
-                                    <motion.div 
-                                    initial={{opacity: 0}}
-                                    animate={{opacity: 1}}
-                                    exit={{ opacity: 0}}
-                                    className="absolute right-0 mt-8 flex flex-col gap-2 rounded-[20px] bg-secondary py-8 pl-5 pr-16">
+                                    <motion.div
+                                        className="absolute right-0 mt-8 flex flex-col gap-2 rounded-[20px] bg-secondary py-8 pl-5 pr-16"
+                                        initial={{ opacity: 0 }}
+                                        animate={{ opacity: 1 }}
+                                        exit={{ opacity: 0 }}>
                                         {links.map((link) => (
                                             <Link
                                                 key={link.id}
                                                 href={`#${link.href}`}
                                                 className="bg-secondary text-[16px] font-semibold capitalize leading-tight tracking-tight text-[#260A2F]"
-                                                onClick={() => setActive(!active)}
-                                            >
+                                                onClick={() => setActive(!active)}>
                                                 {t(link.href)}
                                             </Link>
                                         ))}
