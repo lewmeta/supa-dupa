@@ -1,5 +1,6 @@
 "use client"
 
+import { Companies } from "@/components/companies";
 import { Footer } from "@/components/footer";
 import { Hero } from "@/components/hero";
 import { Journey } from "@/components/journey";
@@ -39,6 +40,7 @@ export default function Home() {
         <>
           <Hero />
           <Journey />
+          <Companies />
           <Slider />
           <Footer />
         </>
