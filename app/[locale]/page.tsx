@@ -6,6 +6,7 @@ import { Hero } from "@/components/hero";
 import { Journey } from "@/components/journey";
 import { Preload } from "@/components/preload";
 import { Slider } from "@/components/slider";
+import { WhatWeDo } from "@/components/what-we-do";
 import { AnimatePresence } from "framer-motion";
 import Lenis from "lenis";
 import { useEffect, useState } from "react";
@@ -41,6 +42,7 @@ export default function Home() {
           <Hero />
           <Journey />
           <Companies />
+          <WhatWeDo/>
           <Slider />
           <Footer />
         </>
