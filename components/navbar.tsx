@@ -23,8 +23,8 @@ export const Navbar = () => {
     const onSelectChange = () => {
         const locales = ["en", "nl", "fr"];
         // const nextLocale =
-        //     currentLocale == "en" ? "nl" : currentLocale === "nl" ? "fr" :
-        //         "en";
+            // currentLocale == "en" ? "nl" : currentLocale === "nl" ? "fr" :
+            //     "en";
         const nextLocale = locales[(locales.indexOf(currentLocale) + 1) % locales.length];
 
         startTransition(() => {

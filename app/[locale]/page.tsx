@@ -1,7 +1,12 @@
 "use client"
 
+import { Companies } from "@/components/companies";
+import { Footer } from "@/components/footer";
+import { Hero } from "@/components/hero";
+import { Journey } from "@/components/journey";
 import { Preload } from "@/components/preload";
 import { Slider } from "@/components/slider";
+import { WhatWeDo } from "@/components/what-we-do";
 import { AnimatePresence } from "framer-motion";
 import Lenis from "lenis";
 import { useEffect, useState } from "react";
@@ -33,9 +38,14 @@ export default function Home() {
         {isLoading && <Preload />}
       </AnimatePresence>
       {!isLoading && (
-        <div className="pt-30 bg-gray-400">
+        <>
+          <Hero />
+          <Journey />
+          <Companies />
+          <WhatWeDo/>
           <Slider />
-        </div>
+          <Footer />
+        </>
       )}
     </>
   );
