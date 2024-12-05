@@ -1,3 +1,12 @@
+import {
+	eshuis,
+	haafkes,
+	hartman,
+	pentuin,
+	saion,
+	stewards,
+} from "@/public";
+
 export const links = [
 	{
 		id: 1,
@@ -23,5 +32,32 @@ export const links = [
 		id: 5,
 		title: "Get in touch",
 		href: "get-in-touch",
+	},
+];
+
+export const collaborationItems = [
+	{
+		id: 1,
+		src: saion,
+	},
+	{
+		id: 2,
+		src: haafkes,
+	},
+	{
+		id: 3,
+		src: pentuin,
+	},
+	{
+		id: 4,
+		src: eshuis,
+	},
+	{
+		id: 5,
+		src: hartman,
+	},
+	{
+		id: 6,
+		src: stewards,
 	},
 ];

@@ -1,5 +1,6 @@
 "use client"
 
+import { Collaboration } from "@/components/collaboration";
 import { Companies } from "@/components/companies";
 import { Footer } from "@/components/footer";
 import { Hero } from "@/components/hero";
@@ -44,6 +45,7 @@ export default function Home() {
           <Companies />
           <WhatWeDo/>
           <Slider />
+          <Collaboration/>
           <Footer />
         </>
       )}
