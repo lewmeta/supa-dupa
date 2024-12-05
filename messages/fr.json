@@ -1,49 +1,94 @@
 {
-    "navbarContent": {
-        "our-ambition": "Notre ambition",
-        "what-we-do": "Ce que nous faisons",
-        "transformation": "Transformation",
-        "our-impact": "Notre impact",
-        "get-in-touch": "Contactez-nous"
-    },
-    "heroContent": {
-        "welcome-to-the-world-of": "Bienvenue dans le monde de",
-        "where-the-journey": "Où le voyage de découverte est aussi passionnant <br/> que la destination.",
-        "lets-build": "Construisons de bonnes entreprises",
-        "start": "commencez à explorer"
-    },
-    "journeyContent": {
-        "journeyContent": "Chez Supa Dupa, nous aidons les entreprises dans leur parcours pour mener des affaires de manière durable. Parce que de bonnes affaires mènent à un avenir."
-    },
-    "companiesContent": {
-        "companiesHeading": "Au cœur de chaque entreprise se trouve une histoire qui attend d'être dévoilée — un récit tissé de sens et de la joie d'un impact positif. C'est pourquoi nous croyons que les entreprises peuvent être de puissants moteurs de changement positif, façonnant un avenir plus durable et significatif.",
-        "companiesPara": "De bonnes entreprises sont rentables, capables de s'adapter à leur environnement en constante évolution et cultivent une culture saine où les gens travaillent ensemble vers un même objectif. Et, si possible, elles ont un impact positif sur la société et notre planète, laissant un héritage pour les générations futures.",
-        "companiesPara1": "Au cœur de chaque entreprise se trouve une histoire qui attend d'être dévoilée — un récit tissé de sens et de la joie d'un impact positif. C'est pourquoi nous croyons que les entreprises peuvent être de puissants moteurs de changement positif, façonnant un avenir plus durable et significatif.",
-        "companiesPara2": "Au cœur de chaque entreprise se trouve une histoire qui attend d'être dévoilée — un récit tissé de sens et de la joie d'un impact positif. C'est pourquoi nous croyons que les entreprises peuvent être de puissants moteurs de changement positif, façonnant un avenir plus durable et significatif."
-    },
-    "sliderContent": {
-        "sliderHeading1": "Pionniers pour une nouvelle normalité",
-        "sliderHeading2": "La transformation des entreprises est un voyage qui demande du temps, de l’espace et une dose contagieuse d’énergie positive.",
-        "sliderHeading3": "Notre philosophie est que chacun connaît sa destination ; parfois, il suffit d’un guide qui sait comment y parvenir. Avec notre processus de transformation, nous créons un chemin unique adapté aux besoins spécifiques de votre entreprise.",
-        "title1": "Explorer.",
-        "heading1": "De la vision globale au lieu de travail.",
-        "para1": "Dans la phase initiale, nous adoptons une vue panoramique, en examinant les dynamiques mondiales pour comprendre le contexte général et les moteurs du changement. Partant de cette perspective large, nous nous concentrons sur votre secteur et votre organisation spécifiques. Notre objectif n’est pas seulement de comprendre les environnements mondiaux, sectoriels et organisationnels, mais aussi de préparer le terrain pour de « nouvelles façons de travailler ». Nous visons à créer un espace dynamique qui invite des initiatives innovantes à s’enraciner, favorisant un environnement où les nouvelles idées et approches peuvent prospérer.",
-        "title2": "Définir.",
-        "heading2": "Collaborer, converger et créer.",
-        "para2": "Après l’exploration, nous travaillons étroitement pour définir une solution adaptée à votre défi. Peu importe que vous ayez besoin d’une nouvelle stratégie, marque ou programme. Notre méthode est conçue pour collaborer, aligner les visions et découvrir de nouveaux chemins au niveau stratégique. Plus important encore, nous définissons un chemin qui s’aligne sur la vision, la mission et l’impact souhaité de votre entreprise à l’échelle locale et mondiale.",
-        "title3": "Intégrer.",
-        "heading3": "L’intelligence stratégique rencontre l’art opérationnel.",
-        "para3": "Au cours de cette phase, nous orchestrons un processus d’intégration fluide, guidant votre équipe à travers les transitions essentielles, le développement des compétences et les changements culturels nécessaires pour adopter et incarner une transformation axée sur un objectif. Il est crucial d’établir une connexion entre la vision stratégique et les niveaux tactiques et opérationnels de l’organisation.",
-        "title4": "Affiner.",
-        "heading4": "Relier la stratégie aux opérations.",
-        "para4": "Une fois l’alignement atteint entre les niveaux stratégique, tactique et opérationnel, il devient essentiel d’affiner et d’intégrer les retours de l’équipe dans la stratégie. Cela garantit une approche soutenue par tous les intervenants de l’entreprise.",
-        "title5": "Activer.",
-        "heading5": "C’est ici que la magie opère.",
-        "para5": "Nous activons votre parcours et amplifions votre histoire avec des concepts créatifs, des expériences numériques et des campagnes. Nous donnons vie à vos initiatives axées sur un objectif, créant des actions concrètes qui impactent positivement votre entreprise et votre communauté. En utilisant notre méthode innovante Transformation Sprint, basée sur les principes de la gestion de transition systémique, nous mettons en œuvre des changements positifs courts et itératifs qui aident votre équipe à effectuer la transition nécessaire."
-    },
-    "footerContent": {
-        "footerHeading1": "Tout le monde sait où il veut aller. Mais parfois, il faut un guide qui sait comment y parvenir.",
-        "footerHeading2": "Connectons-nous avec un objectif et explorons votre parcours ensemble.",
-        "footerBtn": "Commencez votre voyage"
-    }
+	"navbarContent": {
+		"our-ambition": "Notre ambition",
+		"what-we-do": "Ce que nous faisons",
+		"transformation": "Transformation",
+		"our-impact": "Notre impact",
+		"get-in-touch": "Contactez-nous"
+	},
+	"heroContent": {
+		"welcome-to-the-world-of": "Bienvenue dans le monde de",
+		"where-the-journey": "Où le voyage de découverte est aussi excitant <br/> que la destination.",
+		"lets-build": "Construisons de bonnes entreprises",
+		"start": "commencez à explorer"
+	},
+	"journeyContent": {
+		"journeyContent": "Chez Supa Dupa, nous aidons les entreprises dans leur parcours pour faire des affaires de manière durable. Parce que de bonnes affaires mènent à un avenir."
+	},
+	"companiesContent": {
+		"companiesHeading": "Au cœur de chaque entreprise se cache une histoire qui n’attend qu’à être dévoilée — un récit tissé de sens et de la joie d’un impact positif. C’est pourquoi nous croyons que les entreprises peuvent être de puissantes forces de changement positif, façonnant un avenir plus durable et significatif.",
+		"companiesPara": "Les bonnes entreprises sont rentables, capables de s'adapter à leur environnement en constante évolution et possèdent une culture saine où les gens travaillent ensemble vers un même objectif. Et, si possible, elles ont un impact positif sur la société et notre planète, laissant un héritage pour les générations à venir.",
+		"companiesPara1": "Au cœur de chaque entreprise se cache une histoire qui n’attend qu’à être dévoilée — un récit tissé de sens et de la joie d’un impact positif. C’est pourquoi nous croyons que les entreprises peuvent être de puissantes forces de changement positif, façonnant un avenir plus durable et significatif.",
+		"companiesPara2": "Au cœur de chaque entreprise se cache une histoire qui n’attend qu’à être dévoilée — un récit tissé de sens et de la joie d’un impact positif. C’est pourquoi nous croyons que les entreprises peuvent être de puissantes forces de changement positif, façonnant un avenir plus durable et significatif."
+	},
+	"whatwedoContent": {
+		"whatwedoHeading": "Ensemble, nous examinerons votre organisation à travers quatre axes d'expertise : Développement <br /> des affaires, Branding, Durabilité et Personnes & Culture. Nous aidons les organisations <br /> à faire évoluer leur proposition de valeur pour générer des affaires durables.",
+		"title1": "ODD, ESG, B-Corp & Propriété Fiduciaire",
+		"heading1": "Affaires",
+		"heading2": "Développement",
+		"para1": "Mettre en œuvre des modèles et cadres d'affaires de nouvelle génération qui entraînent un changement positif pour votre organisation.",
+		"href1": "Réservez un atelier d'inspiration",
+		"bgColor1": "#260A2F",
+		"textColor1": "#FFD7EF",
+		"linkColor1": "#FFC091",
+		"title2": "Stratégie de marque, Concepts créatifs & Campagnes",
+		"heading3": "Marques et campagnes",
+		"heading4": "axées sur le but",
+		"para2": "Aider les entreprises à trouver leur objectif, définir leur marque et amplifier leur histoire à travers des concepts créatifs, des expériences (numériques) et des campagnes.",
+		"href2": "Réservez un atelier d'inspiration",
+		"bgColor2": "#9FE870",
+		"textColor2": "#260A2F",
+		"linkColor2": "#260A2F",
+		"title3": "Stratégie durable & Gestion de programme",
+		"heading5": "Programmes pour",
+		"heading6": "la durabilité",
+		"para3": "Ensemble, nous élaborons des programmes de durabilité axés sur les personnes pour favoriser un changement transformateur dans votre organisation, intégrant des pratiques durables dans les stratégies, modèles commerciaux et décisions quotidiennes.",
+		"href3": "Réservez un atelier d'inspiration",
+		"bgColor3": "#163300",
+		"textColor3": "#9BE36D",
+		"linkColor3": "#FFC091",
+		"title4": "Épanouissement humain, Marque interne & Recrutement",
+		"heading7": "Personnes &",
+		"heading8": "Culture",
+		"para4": "Transformer les organisations en marques axées sur le but en cultivant une forte culture interne, en unissant les individus autour de valeurs partagées et en engageant profondément les employés pour un lieu de travail unifié, impactant et florissant.",
+		"href4": "Réservez un atelier d'inspiration",
+		"bgColor4": "#320707",
+		"textColor4": "#FFD7EF",
+		"linkColor4": "#FFC091"
+	},
+	"sliderContent": {
+		"sliderHeading1": "Pionniers du nouveau normal",
+		"sliderHeading2": "La transformation des entreprises est un voyage qui demande du temps, de l’espace et une bonne dose d’énergie positive contagieuse.",
+		"sliderHeading3": "Notre philosophie est que tout le monde connaît sa destination ; parfois, il suffit d’un guide qui connaît le chemin pour y arriver. Avec notre processus de transformation, nous adaptons un parcours unique aligné sur les besoins spécifiques de votre entreprise.",
+		"title1": "Explorer.",
+		"heading1": "Du point de vue mondial au lieu de travail.",
+		"para1": "Dans la phase initiale, nous adoptons une vue panoramique, examinant les dynamiques mondiales pour comprendre le contexte général et les moteurs du changement. En partant de cette perspective large, nous zoomons sur votre secteur spécifique et votre organisation. Notre objectif n'est pas seulement de comprendre les paysages globaux, sectoriels et organisationnels, mais aussi de préparer le terrain pour de 'nouvelles façons de travailler.'",
+		"title2": "Définir.",
+		"heading2": "Collaborer, converger & créer.",
+		"para2": "Après l'exploration, nous travaillons en étroite collaboration pour définir une solution souhaitée pour votre défi. Qu’il s’agisse d’une nouvelle stratégie, marque ou programme, notre méthode est adaptée pour travailler en collaboration, aligner les visions et découvrir de nouvelles voies au niveau stratégique.",
+		"title3": "Embarquer.",
+		"heading3": "Stratégies intelligentes rencontrent l'art opérationnel.",
+		"para3": "Durant cette phase, nous orchestrons un processus d'intégration fluide, guidant votre équipe à travers les transitions essentielles, le développement des compétences et les changements culturels nécessaires pour adopter la transformation.",
+		"title4": "Affiner.",
+		"heading4": "Connecter stratégie et opérations.",
+		"para4": "Une fois l'alignement atteint sur les niveaux stratégique, tactique et opérationnel, il devient crucial d'affiner et d'intégrer les retours de l'équipe dans la stratégie.",
+		"title5": "Activer.",
+		"heading5": "C’est là que commence la magie.",
+		"para5": "Nous activons votre parcours et amplifions votre histoire avec des concepts créatifs, des expériences numériques et des campagnes."
+	},
+	"ourImpactContent": {
+		"ourImpactHeading1": "Notre Impact",
+		"ourImpactHeading2": "Nous aimons collaborer avec des gens formidables, des entreprises familiales et des B-Corps!",
+		"title1": "Supa Dupa est un excellent partenaire stratégique, apportant inspiration, idées et conseils qui font progresser la stratégie de Hartman.",
+		"heading1": "Stefanie Sijtsma Semmekrot",
+		"para1": "Directrice Marketing & Gestion Catégorielle",
+		"title2": "C'est un plaisir de travailler avec Supa Dupa.",
+		"heading2": "Paulien Olde Bijvank",
+		"para2": "Responsable Projet & Chercheur"
+	},
+	"footerContent": {
+		"footerHeading1": "Tout le monde sait où il veut aller. Mais parfois, vous avez besoin d’un guide.",
+		"footerHeading2": "Connectons-nous et explorons ensemble votre voyage.",
+		"footerBtn": "Commencez votre voyage"
+	}
 }
